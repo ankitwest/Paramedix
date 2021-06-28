@@ -8,16 +8,18 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.textview.MaterialTextView
 
 class LoginFragment: Fragment() {
+
     private lateinit var loginIdHead: MaterialTextView;
     private lateinit var passHead: MaterialTextView;
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+        savedInstanceState: Bundle?): View {
+
         var rootView: View = inflater.inflate(R.layout.fragment_login, container, false)!!
         loginIdHead=rootView.findViewById(R.id.id_head)
         passHead=rootView.findViewById(R.id.pass_head)
+
         if (requireArguments().getInt("login_type") == 0)
             loginIdHead.setText("Medical Worker ID")
         else loginIdHead.setText("Beneficiary ID")
