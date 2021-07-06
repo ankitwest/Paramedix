@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Paramedix</string>
-<!--    <string name="paramedix">Paramedix</string>-->
+    <!--    <string name="paramedix">Paramedix</string>-->
     <string name="tagline">Find medical support nearby you on demand</string>
     <string name="log_in">Log In</string>
 </resources>
