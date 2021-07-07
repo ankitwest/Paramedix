@@ -3,4 +3,11 @@
     <!--    <string name="paramedix">Paramedix</string>-->
     <string name="tagline">Find medical support nearby you on demand</string>
     <string name="log_in">Log In</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_a_new_acount">Create a New Acount</string>
+    <string name="create_a_new_account">Create a new Account!</string>
+    <string name="login_instead">Login instead</string>
 </resources>
